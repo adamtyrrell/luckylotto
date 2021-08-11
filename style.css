@@ -1,0 +1,56 @@
+h1{
+   font-family: Arial, Helvetica, sans-serif; 
+   position: relative;
+   text-align: center;
+   
+    
+}
+.circle{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border-radius: 50%;
+    display:inline-block;  
+    margin-left:10px;
+    background: radial-gradient(circle at 10px 10px, #fbfdff, rgb(189, 181, 181));
+    box-shadow: 0px 0px 2px;
+    
+    
+}
+.circle-div{
+    display: block;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.main-container{
+    border: dashed;
+    width: 800px;
+    height: 400px;
+    margin-top: 100px; 
+    padding-top: 0; 
+    padding-bottom: 10;
+    padding-left: 0;
+    padding-right: 0px;
+    margin: auto;   
+}
+
+
+.center-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    position: relative;
+    top: -25px;
+    color: black;   
+}
+
+.submit-button{
+    display: block;
+    margin-top: 50px;
+    margin-left: 375px;
+}
+
+#number6{
+    color: red;
+}
